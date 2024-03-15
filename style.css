@@ -1,0 +1,180 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* navbar start */
+.navbar{
+    background-color: #000000;
+}
+
+.navbar .icons i{
+    padding: 0rem 10px;
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.navbar .icons i:hover{
+    color: yellow;   
+}
+
+.navbar li{
+    padding: 0rem 10px;
+}
+
+.navbar .nav-item:hover{
+    background-color: #fff;
+    transition: .5s;
+    border-radius: 5px;
+    transform: scale(1.1);
+    padding: 0rem 10px;
+
+}
+
+
+/* .navbar{
+    background-color: rgba(0,0,0,0.3);
+    
+}
+
+
+.navbar-brand{
+    padding: 0% 10%;
+}
+
+.navbar-nav{
+    padding: 0% 10%;
+    gap: 1rem;
+   
+}
+
+.navbar-nav .nav-item:hover{
+    color: black;
+    background-color: blue;
+    border-radius: 10px;
+    transition: .3s;
+    transform: scale(1.1);
+   
+   
+} */
+
+
+/* navbar ends */
+
+/* home start */
+header {
+    background-image: url(./bg-farniture5/bg-farniture\ 4.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-container-fluid {
+    height: 100vh;
+    align-items: center;
+}
+
+.banner-contents p {
+    text-align: justify;
+}
+
+.container i {
+    font-size: 1.8rem;
+
+}
+
+/* home ends */
+
+/* about start */
+.container p {
+    text-align: justify;
+}
+
+.container img {
+    border-radius: 10px;
+}
+
+/* about ends */
+
+/* products */
+.container .line {
+    line-height: 2px;
+}
+
+/* products */
+
+/* banner start */
+.home-furniture {
+    background-image: url(./banner/tabel\ 4\ .jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.furniture-container-fluid {
+    height: 60vh;
+    align-items: center;
+
+}
+
+/* banner ends */
+
+/* contact start */
+#Contact p {
+    text-align: justify;
+    line-height: 20px;
+}
+
+#Contact h1 span {
+    color: slateblue;
+}
+
+.form-group .btn {
+    padding: 0rem 2rem;
+}
+
+.contact-contents {
+    margin-top: 8rem;
+}
+
+/* contact ends */
+
+/* customar review */
+#Review img:hover {
+    transform: scale(1.1);
+    transition: .3s;
+    cursor: pointer;
+
+}
+
+#Review .star i {
+    font-size: 1rem;
+
+}
+
+/* customar review */
+
+/* footer start */
+#footer {
+    background-color: #000000;
+}
+
+#footer .icons i {
+    color: white;
+    font-size: 20px;
+    padding: 1rem 12px;
+
+}
+
+#footer .icons i:hover {
+    transform: scale(1.2);
+    color: blue;
+}
+
+#footer p span {
+    color: springgreen;
+}
+
+/* footer ends */
